@@ -1,74 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Car Dealer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Small Business Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <ul class="navbar">
-            <div class="navbar-brand">CAR DEALER</div>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#shop-preowned">Shop Pre-Owned</a></li>
-            <li><a href="#shop-new-cars">Shop New Cars</a></li>
-            <li><a href="#clearance-event">Clearance Event</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle">Resources</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Resource 1</a></li>
-                    <li><a href="#">Resource 2</a></li>
-                    <li><a href="#">Resource 3</a></li>
+    <header>
+        <div class="header-content">
+            <h1>Subedi Stationary and Suppliers</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><button class="auth-buttons" id="signin-btn">Sign In</button></li>
-            <li><button id="register-btn">Register</button></li>
-            <li><div class="hamburger-menu" onclick="toggleSidebar()">☰</div></li>
-        </ul>
-    </nav>
-
-   
-    <div id="email-sidebar" class="email-sidebar">
-        <h2>Mail</h2>
-        <p>ratnasubedi2057@gmail.com</p>
-        <ul>
-            <li><a href="#"><i class="icon">✉️</i>Inbox</a></li>
-            <li><a href="#"><i class="icon">📤</i>Outbox</a></li>
-            <li><a href="#"><i class="icon">❤️</i>Favorites</a></li>
-            <li><a href="#"><i class="icon">📂</i>Archive</a></li>
-            <li><a href="#"><i class="icon">🗑️</i>Trash</a></li>
-            <li><a href="#"><i class="icon">⚠️</i>Spam</a></li>
-    </ul>
-    <h3>Labels</h3>
-        <ul class="labels">
-            <li><a href="#"><i class="icon">🏷️</i>Family</a></li>
-        </ul>
-        
-    </div>
-
-    <div id="signin-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Sign In</h2>
-            <form id="signin-form">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                
-                <button type="submit">Sign In</button>
-            </form>
+            </nav>
         </div>
-    </div>
-    
+    </header>
 
-    <script src="script.js"></script>
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our Business</h2>
+            <p>Your one-stop solution for all your stationary needs.</p>
+            <a href="#contact" class="hero-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a comprehensive range of services, including:</p>
+        <ul>
+            <li>High quality printing Services</li>
+            <li>Wide range of office supplies</li>
+            <li>Premium paper varities</li>
+            <li>Sports items</li>
+            <!-- More services can be listed here -->
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>we've been dedicated to providing top-quality stationery products and services for the past 8 years. We are committed to meeting all your needs with our carefully selected and tailored products.</p>
+        <!-- More about the business -->
+    </section>
+    <section id="product">
+        <h2>Our Products</h2>
+        <p>These are some of the items we provide:</p>
+        <ul>
+            <li>Notebooks</li>
+            <li>Pens</li>
+            <li>Custom Office Supplies</li>
+            <li>Folders and Files</li>
+            <li>Planners and Calendars</li>
+            <li>Sports item</li>
+        </ul>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 9825588025</p>
+        <p>Email: info@stationary.com</p>
+        <p>Address: Tempopark,Birendranagar-2,surkhet</p>
+        <!-- Additional contact details or a contact form -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Stationary. All rights reserved.</p>
+    </footer>
 </body>
 </html>
