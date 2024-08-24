@@ -39,12 +39,12 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }, {
-        threshold: 0.2 // Trigger when 20% of the card is visible
+        threshold: 0.2 
     });
 
     projectCards.forEach(card => {
         observer.observe(card);
-        card.style.animationPlayState = 'paused'; // Pause animation until in view
+        card.style.animationPlayState = 'paused'; 
     });
 });
 
